@@ -1,0 +1,49 @@
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 32px;
+}
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+}
+li {
+    font-family: Times, 'Times New Roman', serif;
+}
+header, footer {
+    background-color: rgba(170, 0, 0, 0.658);
+    color: rgb(0, 0, 0);
+}
+body {
+    background-color: rgba(2, 27, 255, 0.747);
+    border: 10px solid;
+    border-color: rgb(7, 7, 238);
+    padding: 3%;
+    font-size: 20px;
+    color: rgb(5, 2, 32);
+    letter-spacing: 1px;
+}
+
+.ingredients {
+    color: rgb(57, 35, 136);
+    background-color: rgb(0, 153, 255);
+}
+ol li {
+    background-color: rgb(0, 140, 255);
+}
+.box {
+    margin: 100px;
+    border: 20px solid #000;
+    padding: 200px;
+    width: 750px;
+    height: 750px;
+}
+.form {
+    background-image: url(https://cdn.dribbble.com/users/259095/screenshots/2199551/media/6a46b1507b042d4b8b3d9b3249354d27.gif);
+}
+button:hover {
+   
+    background-color: #7d4bf0; /* Example: change background color on hover */
+    color: rgb(182, 73, 155); /* Example: change text color on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    border: 1px solid #3445a8; /* Example: add a border on hover */
+}
